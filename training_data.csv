@@ -1,0 +1,488 @@
+Text,Label
+title,name
+appellation,name
+designation,name
+moniker,name
+denomination,name
+handle,name
+identity,name
+label,name
+nickname,name
+cognomen,name
+sobriquet,name
+epithet,name
+byname,name
+pseudonym,name
+alias,name
+byname,name
+what is your name,name
+tell me your name,name
+what are you called,name
+what to call you,name
+who are you,name
+who be you,name
+can i know your name,name
+may i know your name,name
+what people call you,name
+what's your name,name
+what's your full name,name
+can i ask your name,name
+could you tell me your name,name
+how i address you,name
+i'm curious what's your name,name
+may i ask what's your name,name
+pardon what's your name,name
+what your friends call you,name
+what's your full name please,name
+what's your given name,name
+would you mind sharing your name,name
+how may i address you,name
+what name do you go by,name
+what are you known as,name
+what should i call you,name
+what's your actual name,name
+what's your real name,name
+what do you prefer to be called,name
+what's your preferred name,name
+what name do you prefer,name
+what do you like to be called,name
+what do they call you,name
+what's your official name,name
+what's the name they gave you,name
+what's the name you use,name
+what's the name you go by,name
+what's your birth name,name
+what's your birthname,name
+what's your christian name,name
+what's your full name then,name
+what's your official title,name
+what's your proper name,name
+what's your right name,name
+what's your true name,name
+site,location
+place,location
+position,location
+spot,location
+area,location
+region,location
+zone,location
+locale,location
+setting,location
+locale,location
+territory,location
+ground,location
+land,location
+country,location
+district,location
+neighborhood,location
+environs,location
+surroundings,location
+locality,location
+Where do you live,location
+What is your location,location
+Where is your house,location
+Where do you stay,location
+Where are you,location
+What city are you in,location
+What country are you from,location
+Where are you based,location
+What's your address,location
+where to find you,location
+your place of residence,location
+your current spot,location
+where you reside,location
+your geographical location,location
+the city you are in,location
+the country of your origin,location
+where you are situated,location
+your physical address,location
+where you hang out,location
+your home base,location
+the region you are in,location
+the area you live in,location
+your whereabouts,location
+the place you are at,location
+your location address,location
+the site of your home,location
+the place you reside,location
+the location of your home,location
+the place you currently are,location
+old,age
+young,age
+mature,age
+adult,age
+senior,age
+elderly,age
+middle-aged,age
+juvenile,age
+minor,age
+matured,age
+venerable,age
+ripe,age
+years,age
+advanced,age
+aged,age
+how old are you,age
+how old be you,age
+what is your age,age
+what be your age,age
+when were you born,age
+what's your birthdate,age
+how young are you,age
+how old are you in years,age
+what year were you born,age
+how many years old are you,age
+what is your birth year,age
+how old are you now,age
+what's your current age,age
+in what year were you born,age
+how many years have you lived,age
+what's your age in years,age
+how old will you be soon,age
+what's your present age,age
+at what age are you now,age
+what is your age currently,age
+how many birthdays have you had,age
+how old are you at present,age
+job,occupation
+profession,occupation
+career,occupation
+work,occupation
+vocation,occupation
+employment,occupation
+trade,occupation
+calling,occupation
+business,occupation
+post,occupation
+position,occupation
+what is your job,occupation
+what exist your job,occupation
+what do you do for a living,occupation
+what is your work,occupation
+what be your work,occupation
+what's your profession,occupation
+what's your career,occupation
+what do you do,occupation
+what's your line of work,occupation
+how do you earn a living,occupation
+what's your occupation,occupation
+what's your field,occupation
+what kind of work do you do,occupation
+what are you doing nowadays,occupation
+what's your current job,occupation
+what do you do everyday,occupation
+what's your daily work,occupation
+what's your role,occupation
+what's your function,occupation
+what's your area of work,occupation
+what's your specialty,occupation
+what do you do for work,occupation
+what's your 9 to 5,occupation
+tall,height
+tallness,height
+size,height
+stature,height
+measure,height
+altitude,height
+elevation,height
+length,height
+dimension,height
+proportion,height
+magnitude,height
+how tall are you,height
+what is your height,height
+what be your height,height
+how high are you,height
+how high be you,height
+what's your height,height
+what's your tallness,height
+what is your size,height
+what's your stature,height
+what's your measure,height
+how tall are you exactly,height
+what's your altitude,height
+what's your elevation,height
+what's your length,height
+what's your dimension,height
+what's your proportion,height
+what's your magnitude,height
+how many feet tall are you,height
+how many inches tall are you,height
+what's your exact height,height
+what's your precise height,height
+what's your total height,height
+what's your full height,height
+what's your entire height,height
+exercise,physical activity
+workout,physical activity
+fitness,physical activity
+sport,physical activity
+training,physical activity
+movement,physical activity
+motion,physical activity
+action,physical activity
+gym,physical activity
+activity,physical activity
+do you exercise,physical activity
+how often do you work out,physical activity
+how frequently do you work out,physical activity
+do you workout,physical activity
+do you exercise,physical activity
+are you active,physical activity
+do you engage in sports,physical activity
+are you physically fit,physical activity
+do you train regularly,physical activity
+are you into fitness,physical activity
+do you move around a lot,physical activity
+do you get regular exercise,physical activity
+how often do you engage in physical activity,physical activity
+do you lead an active lifestyle,physical activity
+are you physically active,physical activity
+do you do physical labor,physical activity
+do you engage in regular physical activity,physical activity
+what's your fitness level,physical activity
+how would you rate your physical activity,physical activity
+do you make time for exercise,physical activity
+do you prioritize physical activity,physical activity
+is physical activity important to you,physical activity
+qualification,educational level
+degree,educational level
+accreditation,educational level
+certification,educational level
+knowledge,educational level
+scholarship,educational level
+erudition,educational level
+learning,educational level
+intelligence,educational level
+educated,educational level
+what is your education level,educational level
+what your educational level,educational level
+how educated are you,educational level
+what's your highest qualification,educational level
+what's your highest degree,educational level
+did you go to college,educational level
+what's your educational background,educational level
+what's your level of education,educational level
+how far did you go in school,educational level
+what's your academic level,educational level
+what's your scholastic attainment,educational level
+what's your educational attainment,educational level
+what's your academic achievement,educational level
+what's your educational achievement,educational level
+are you a college graduate,educational level
+do you have a university degree,educational level
+what's your highest level of education,educational level
+what's your educational status,educational level
+what's your academic qualification,educational level
+what's your educational credential,educational level
+how many years of education do you have,educational level
+what's your educational experience,educational level
+alcohol,drinking habit
+drunk,drinking habit
+imbibing,drinking habit
+influence,drinking habit
+alcoholism,drinking habit
+drinking,drinking habit
+tippling,drinking habit
+bibbing,drinking habit
+sipping,drinking habit
+indulgence,drinking habit
+do you drink,drinking habit
+you get drunk,drinking habit
+how often do you drink,drinking habit
+how often you drunk,drinking habit
+how often do you drink alcohol,drinking habit
+do you consume alcohol,drinking habit
+do you have a drinking problem,drinking habit
+are you a heavy drinker,drinking habit
+do you drink regularly,drinking habit
+do you drink excessively,drinking habit
+do you drink often,drinking habit
+do you drink frequently,drinking habit
+do you drink socially,drinking habit
+do you drink moderately,drinking habit
+do you drink responsibly,drinking habit
+what's your drinking frequency,drinking habit
+how would you describe your drinking,drinking habit
+do you enjoy drinking,drinking habit
+is drinking a part of your routine,drinking habit
+do you feel like you drink too much,drinking habit
+are you trying to cut down on drinking,drinking habit
+do you want to reduce your drinking,drinking habit
+vapping,smoking habit
+puffing,smoking habit
+piping,smoking habit
+smoking,smoking habit
+nicotine,smoking habit
+tobacco,smoking habit
+cigarette,smoking habit
+do you smoke,smoking habit
+how often do you smoke,smoking habit
+how frequently do you smoke,smoking habit
+do you have a smoking habit,smoking habit
+are you a smoker,smoking habit
+do you smoke regularly,smoking habit
+do you smoke daily,smoking habit
+do you smoke frequently,smoking habit
+do you smoke occasionally,smoking habit
+do you smoke socially,smoking habit
+do you smoke heavily,smoking habit
+do you smoke excessively,smoking habit
+do you smoke moderately,smoking habit
+do you smoke lightly,smoking habit
+what's your smoking frequency,smoking habit
+how would you describe your smoking,smoking habit
+do you enjoy smoking,smoking habit
+is smoking a part of your routine,smoking habit
+do you feel like you smoke too much,smoking habit
+are you trying to cut down on smoking,smoking habit
+do you want to reduce your smoking,smoking habit
+are you trying to quit smoking,smoking habit
+do you need help quitting smoking,smoking habit
+sex,gender identity
+pronouns,gender identity
+pronoun,gender identity
+gender,gender identity
+gender role,gender identity
+gender expression,gender identity
+sexuality,gender identity
+gender orientation,gender identity
+gender preference,gender identity
+gender affiliation,gender identity
+gender association,gender identity
+gender classification,gender identity
+gender category,gender identity
+gender label,gender identity
+gender status,gender identity
+gender assignment,gender identity
+gender attribution,gender identity
+gender designation,gender identity
+what is your gender,gender identity
+what be your sex,gender identity
+what is your gender identity,gender identity
+what be your gender identity,gender identity
+how do you identify,gender identity
+what are your gender pronouns,gender identity
+are you male or female,gender identity
+do you identify as male or female,gender identity
+do you identify as a man or woman,gender identity
+do you identify as non-binary,gender identity
+do you identify as genderqueer,gender identity
+do you identify as genderfluid,gender identity
+do you identify as agender,gender identity
+do you identify as two-spirit,gender identity
+do you identify as bigender,gender identity
+do you identify as pangender,gender identity
+do you identify as neutrois,gender identity
+what's your gender expression,gender identity
+what's your gender orientation,gender identity
+what's your gender preference,gender identity
+searching,seeking
+looking,seeking
+want,seeking
+pursuing,seeking
+exploring,seeking
+wanting,seeking
+desiring,seeking
+aspiring,seeking
+yearning,seeking
+longing,seeking
+craving,seeking
+what do you seek in a partner,seeking
+what are you looking for,seeking
+what do you want,seeking
+what are your desires,seeking
+what are your needs,seeking
+what do you desire,seeking
+what do you need,seeking
+what are you searching for,seeking
+what are you hunting for,seeking
+what are you pursuing,seeking
+what are you chasing,seeking
+what are you questing for,seeking
+what are you inquiring about,seeking
+what are you investigating,seeking
+what are you exploring,seeking
+what are you seeking in a relationship,seeking
+what do you hope to find,seeking
+what are your expectations,seeking
+what do you aspire to,seeking
+what do you long for,seeking
+what do you yearn for,seeking
+Do you want children,want children
+What is your star sign,star sign
+What is your astrology,star sign
+What is your zodiac sign,star sign
+What is your horoscope,star sign
+What be your horoscope,star sign
+Are you into politics,politics
+Do you have political views,politics
+What is your religion,religion
+Are you religious,religion
+constitute you religious,religion
+Do you have a tribe,tribe
+What tribe do you belong to,tribe
+What tribe serve you belong to,tribe
+What are your hobbies,hobbies
+What be your routines,hobbies
+What do you do for fun,hobbies
+What serve you do for fun,hobbies
+What is your passion,passion
+What is your passion in life,passion
+What are your dreams,dreams
+What be your aspirations,dreams
+What do you expect in a relationship,expectations in a relationship
+What do you look for in a relationship,expectations in a relationship
+What is your favorite food,favorite food
+What be your favorite consume,favorite food
+What do you love to eat,favorite food
+What is your favorite color,favorite color
+What be your favorite colour,favorite color
+What color do you like the most,favorite color
+What is your favorite animal,favorite animal
+What constitute your favorite animal,favorite animal
+What animal do you like the most,favorite animal
+What is your favorite movie,favorite movie
+What exist your favorite movie,favorite movie
+What movie do you like the most,favorite movie
+What is your favorite book,favorite book
+What is your favorite literature,favorite book
+What book do you like the most,favorite book
+What is your favorite music genre,favorite music genre
+What type of music do you like,favorite type of music
+Which genre of music do you prefer,favorite type of music
+Who is your favorite artist,favorite artist
+Who is your favored artist,favorite artist
+Who is your favorite singer,favorite artist
+What is your favorite travel destination,favorite travel destination
+What exist your favorite travel destination,favorite travel destination
+Where do you love to travel,favorite travel destination
+What is your favorite sport,favorite sport
+What is your favored sport,favorite sport
+What kind of sports do you like,favorite sport
+What's your favorite team,favorite team
+What is your favored team,favorite team
+What be your favorite team,favorite team
+Which team do you support,favorite team
+Which team perform you support,favorite team
+Who is your favorite player,favorite player
+Who is your darling player,favorite player
+Who be your favorite player,favorite player
+Who is your favorite athlete,favorite player
+What is your favorite subject in school,favorite subject in school
+What is your favorite capable in school,favorite subject in school
+What was your favorite subject,favorite subject in school
+What be your favorite subject,favorite subject in school
+What type of food do you like,favorite type of food
+What type of movie do you like,favorite type of movie
+What type of book do you like,favorite type of book
+What type of sport do you like,favorite type of sport
+What type of travel do you like,favorite type of travel
+What kind of food do you enjoy,favorite type of food
+What kind of movies do you watch,favorite type of movie
+What kind of movie do you watch,favorite type of movie
+What kind of books do you read,favorite type of book
+What kind of sports do you like,favorite type of sport
+What kind of trips do you enjoy,favorite type of travel
+What kind of trips practice you enjoy,favorite type of travel
+Do you prefer starting chats or your partner,initiates chat
