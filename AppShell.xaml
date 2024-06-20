@@ -8,7 +8,7 @@
     Title="TalkingStage">
 
     <ShellContent
-        Title="Home"
+        Title="Talking Stage by Brainydaps"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
