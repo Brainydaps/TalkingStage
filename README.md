@@ -12,7 +12,7 @@ TalkingStage is a conversational bot that uses machine learning to predict respo
 
 ## What's New in v1.0.2
 
-- **Model Persistence**: Unlike the pre-release version that relied on a prediction engine created at runtime, v1.0.1 introduces the ability to save and load a machine learning model (`model.zip`). This enhances performance and makes the bot more production-ready.
+- **Model Persistence**: Unlike the pre-release version that relied on a prediction engine created at runtime, v1.0.2 introduces the ability to save and load a machine learning model (`model.zip`). This enhances performance and makes the bot more production-ready.
 - **Separation of Concerns**: Training and saving the model is now handled by a separate `TrainingModel.cs` class. This ensures that the model is only trained if the `model.zip` file is not found, optimizing resource usage.
 - **Updated Documentation**: Comprehensive instructions on how to set up, run, and contribute to the project have been added.
 
