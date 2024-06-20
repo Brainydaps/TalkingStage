@@ -1,26 +1,3 @@
-Yes, even when using a `model.zip` file, the application still creates a `PredictionEngine` during production. The `PredictionEngine` is a crucial component that takes the trained model and uses it to make predictions based on new input data.
-
-Here's a detailed explanation of the process:
-
-1. **Model Training and Saving**:
-    - When you first run the application without a pre-existing `model.zip` file, the `TrainingModel` class trains a new model using the training data (`training_data.csv`).
-    - After training, the model is saved to a file named `model.zip`.
-
-2. **Model Loading and Prediction**:
-    - When you run the application again, it checks for the existence of the `model.zip` file.
-    - If the file is found, the model is loaded from this file.
-    - A `PredictionEngine` is then created using this loaded model. This engine is responsible for making predictions based on new input data during production.
-
-3. **PredictionEngine Creation**:
-    - The `PredictionEngine` is a lightweight wrapper around the model. It allows for efficient and repeated predictions without needing to reload or retrain the model.
-    - Creating a `PredictionEngine` from a pre-trained model is efficient and allows for quick predictions in a production environment.
-
-Thus, even with the model saved and loaded from a file, the `PredictionEngine` remains a key part of the workflow. It leverages the trained model to provide predictions for new input data efficiently.
-
-Here is an updated version of the `README.md` to reflect this explanation:
-
----
-
 # TalkingStage
 
 TalkingStage is a conversational bot that uses machine learning to predict responses to various questions about personal preferences and characteristics. The bot is designed to assist users in gathering and responding to personal information during the "talking stage" of a relationship.
@@ -157,7 +134,3 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## Contact
 
 For any questions or inquiries, please contact Brainydaps via GitHub.
-
----
-
-This updated `README.md` explains how version `v1.0.1` differs from the pre-release version and retains all the essential information from the original `README.md`.
