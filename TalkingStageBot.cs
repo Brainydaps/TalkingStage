@@ -1,10 +1,9 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.ML;
 using Microsoft.ML.Data;
-using Microsoft.ML.Transforms.Text;
 
 namespace TalkingStage
 {
@@ -55,48 +54,26 @@ namespace TalkingStage
 
         private MLContext mlContext;
         private ITransformer model;
-        private PredictionEngine<InputData, Prediction> predictionEngine;
+        private DataViewSchema modelSchema;
 
         public TalkingStageBot()
         {
             mlContext = new MLContext();
+            var modelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "model.zip");
+            var trainingDataPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "training_data.csv");
 
-            // Determine the path to training_data.csv relative to the executable
-            var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            var trainingDataPath = Path.Combine(baseDirectory, "training_data.csv");
+            System.Diagnostics.Debug.WriteLine($"Model path: {modelPath}");
+            System.Diagnostics.Debug.WriteLine($"Training data path: {trainingDataPath}");
 
-            // Load training data
-            var trainingData = mlContext.Data.LoadFromTextFile<InputData>(trainingDataPath, separatorChar: ',', hasHeader: true);
+            if (!File.Exists(modelPath))
+            {
+                // Train and save the model if it doesn't exist
+                var trainingModel = new TrainingModel();
+                trainingModel.TrainAndSaveModel(trainingDataPath, modelPath);
+            }
 
-            // Preprocess the training data to ensure consistency
-            var preprocessedTrainingData = mlContext.Data.CreateEnumerable<InputData>(trainingData, reuseRowObject: false)
-                .Select(row => new InputData
-                {
-                    Text = row.Text.Trim().ToLower(),
-                    Label = row.Label.Trim().ToLower()
-                });
-
-            // Create IDataView from preprocessed data
-            var preprocessedTrainingDataView = mlContext.Data.LoadFromEnumerable(preprocessedTrainingData);
-
-            // Define the data preparation and training pipeline
-            var pipeline = mlContext.Transforms.Text.FeaturizeText("Features", nameof(InputData.Text))
-                .Append(mlContext.Transforms.Conversion.MapValueToKey("LabelKey", nameof(InputData.Label)))
-                .Append(mlContext.Transforms.Concatenate("Features", "Features"))
-                .AppendCacheCheckpoint(mlContext)
-                .Append(mlContext.MulticlassClassification.Trainers.SdcaMaximumEntropy(
-                    labelColumnName: "LabelKey",
-                    featureColumnName: "Features",
-                    l2Regularization: 0.1f,           // Adjust regularization strength
-                    l1Regularization: 0.01f,
-                    maximumNumberOfIterations: 1000)) // Adjust maximum number of iterations
-                .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel", "PredictedLabel"));
-
-            // Train the model
-            model = pipeline.Fit(preprocessedTrainingDataView);
-
-            // Create a prediction engine
-            predictionEngine = mlContext.Model.CreatePredictionEngine<InputData, Prediction>(model);
+            // Load the model
+            model = mlContext.Model.Load(modelPath, out modelSchema);
         }
 
         public string GetResponse(string question)
@@ -114,46 +91,46 @@ namespace TalkingStage
             }
 
             // If no direct keyword match, then use ML model prediction
-            var prediction = predictionEngine.Predict(new InputData { Text = question });
-            System.Diagnostics.Debug.WriteLine("Prediction engine is initialized");
-            System.Diagnostics.Debug.WriteLine($"Predicted Label: '{prediction.PredictedLabel}', Score: [{string.Join(", ", prediction.Score.DenseValues())}]");
+            var prediction = Predict(question);
 
-            if (string.IsNullOrEmpty(prediction.PredictedLabel))
+            if (prediction == null || string.IsNullOrEmpty(prediction.PredictedLabel))
             {
-                System.Diagnostics.Debug.WriteLine("PredictedLabel is null");
                 return "I don't have an answer for that.";
-            }
-
-            // Debug: Check if predicted label exists in the responses dictionary
-            System.Diagnostics.Debug.WriteLine($"Checking if predicted label '{prediction.PredictedLabel}' exists in the responses dictionary...");
-            foreach (var key in responses.Keys)
-            {
-                System.Diagnostics.Debug.WriteLine($"Dictionary Key: '{key}'");
             }
 
             if (responses.TryGetValue(prediction.PredictedLabel, out var response))
             {
-                System.Diagnostics.Debug.WriteLine("Prediction engine gave response");
                 return response;
             }
 
-            System.Diagnostics.Debug.WriteLine("Predicted label not found in responses dictionary");
             return "I don't have an answer for that.";
+        }
+
+        private Prediction? Predict(string text)
+        {
+            var inputData = new List<InputData> { new InputData { Text = text } };
+            var inputDataView = mlContext.Data.LoadFromEnumerable(inputData);
+
+            var transformedData = model.Transform(inputDataView);
+
+            var predictions = mlContext.Data.CreateEnumerable<Prediction>(transformedData, reuseRowObject: false).ToList();
+
+            return predictions.FirstOrDefault();
         }
 
         public class InputData
         {
             [LoadColumn(0)] // Column index for 'Text' in training_data.csv
-            public string Text { get; set; }
+            public string Text { get; set; } = string.Empty;
 
             [LoadColumn(1)] // Column index for 'Label' in training_data.csv
-            public string Label { get; set; }
+            public string Label { get; set; } = string.Empty;
         }
 
         public class Prediction
         {
             [ColumnName("PredictedLabel")]
-            public string PredictedLabel { get; set; }
+            public string PredictedLabel { get; set; } = string.Empty;
 
             public VBuffer<float> Score { get; set; }
         }
