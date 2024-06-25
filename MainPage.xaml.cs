@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.Maui.Controls;
 
 namespace TalkingStage
@@ -9,11 +9,12 @@ namespace TalkingStage
 
         public MainPage()
         {
+
             InitializeComponent();
             chatbot = new TalkingStageBot(); // Initialize the chatbot
         }
 
-        private void OnSendClicked(object sender, EventArgs e)
+        private async void OnSendClicked(object sender, EventArgs e)
         {
             string question = UserInput.Text;
             if (string.IsNullOrEmpty(question))
@@ -25,7 +26,14 @@ namespace TalkingStage
             System.Diagnostics.Debug.WriteLine($"Sending question: '{question}' to chatbot.");
 
             // Get response from chatbot
-            string response = chatbot.GetResponse(question);
+            var (response, isFirstInteraction) = chatbot.GetResponse(question);
+
+            // Display alert if it's the first interaction
+            if (isFirstInteraction)
+            {
+                await DisplayAlert("Information", "Note: Different questions are identified and answered when separated by a comma, question mark, full stop or exclamation marks.", "OK");
+                return;
+            }
 
             // Display response
             ResponseLabel.Text = response;
