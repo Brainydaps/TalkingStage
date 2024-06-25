@@ -10,11 +10,11 @@ TalkingStage is a conversational bot that uses machine learning to predict respo
 - Uses a saved model for making predictions in production.
 - Supports multiple platforms, including Android, iOS, macOS, and Windows.
 
-## What's New in v1.0.2
+## What's New in v1.2.1
 
-- **Model Persistence**: Unlike the pre-release version that relied on a prediction engine created at runtime, v1.0.2 introduces the ability to save and load a machine learning model (`model.zip`). This enhances performance and makes the bot more production-ready.
-- **Separation of Concerns**: Training and saving the model is now handled by a separate `TrainingModel.cs` class. This ensures that the model is only trained if the `model.zip` file is not found, optimizing resource usage.
-- **Updated Documentation**: Comprehensive instructions on how to set up, run, and contribute to the project have been added.
+- **Initial Interaction Alert**: On the first interaction, the bot now displays an alert with guidance on how to format questions for better responses. This helps users understand the input format for optimal results.
+- **Unique Responses**: Updated the response mechanism to ensure that each response is unique and separated by a comma.
+- **Expanded Training Data**: The training data has been expanded to better handle a wider variety of questions, resulting in more accurate and relevant answers.
 
 ## Project Structure
 
@@ -85,7 +85,10 @@ Console.WriteLine(response);
 - Added logging to confirm paths for the model and training data.
 
 ## Screenshots
-![Screenshot 2024-06-19 130341](https://github.com/Brainydaps/TalkingStage/assets/41041115/99b89534-1bee-47dc-b94d-ac0e7e833746)
+![Screenshot 2024-06-25 172627](https://github.com/Brainydaps/TalkingStage/assets/41041115/7b8825b7-c394-4861-92b6-55dd1c005c8d)
+![Screenshot 2024-06-25 172912](https://github.com/Brainydaps/TalkingStage/assets/41041115/2a04c075-23b4-4ae5-a9c1-87972993eff6)
+
+
 
 ## Machine Learning Techniques
 
