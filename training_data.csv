@@ -409,75 +409,833 @@ what are your expectations,seeking
 what do you aspire to,seeking
 what do you long for,seeking
 what do you yearn for,seeking
-Do you want children,want children
-What is your star sign,star sign
-What is your astrology,star sign
-What is your zodiac sign,star sign
-What is your horoscope,star sign
-What be your horoscope,star sign
-Are you into politics,politics
-Do you have political views,politics
-What is your religion,religion
-Are you religious,religion
-constitute you religious,religion
-Do you have a tribe,tribe
-What tribe do you belong to,tribe
-What tribe serve you belong to,tribe
-What are your hobbies,hobbies
-What be your routines,hobbies
-What do you do for fun,hobbies
-What serve you do for fun,hobbies
-What is your passion,passion
-What is your passion in life,passion
-What are your dreams,dreams
-What be your aspirations,dreams
-What do you expect in a relationship,expectations in a relationship
-What do you look for in a relationship,expectations in a relationship
-What is your favorite food,favorite food
-What be your favorite consume,favorite food
-What do you love to eat,favorite food
-What is your favorite color,favorite color
-What be your favorite colour,favorite color
-What color do you like the most,favorite color
-What is your favorite animal,favorite animal
-What constitute your favorite animal,favorite animal
-What animal do you like the most,favorite animal
-What is your favorite movie,favorite movie
-What exist your favorite movie,favorite movie
-What movie do you like the most,favorite movie
-What is your favorite book,favorite book
-What is your favorite literature,favorite book
-What book do you like the most,favorite book
-What is your favorite music genre,favorite music genre
-What type of music do you like,favorite type of music
-Which genre of music do you prefer,favorite type of music
-Who is your favorite artist,favorite artist
-Who is your favored artist,favorite artist
-Who is your favorite singer,favorite artist
-What is your favorite travel destination,favorite travel destination
-What exist your favorite travel destination,favorite travel destination
-Where do you love to travel,favorite travel destination
-What is your favorite sport,favorite sport
-What is your favored sport,favorite sport
-What kind of sports do you like,favorite sport
-What's your favorite team,favorite team
-What is your favored team,favorite team
-What be your favorite team,favorite team
-Which team do you support,favorite team
-Which team perform you support,favorite team
-Who is your favorite player,favorite player
-Who is your darling player,favorite player
-Who be your favorite player,favorite player
-Who is your favorite athlete,favorite player
-What is your favorite subject in school,favorite subject in school
-What is your favorite capable in school,favorite subject in school
-What was your favorite subject,favorite subject in school
-What be your favorite subject,favorite subject in school
-What type of food do you like,favorite type of food
-What type of movie do you like,favorite type of movie
-What type of book do you like,favorite type of book
-What type of sport do you like,favorite type of sport
-What type of travel do you like,favorite type of travel
+child,want children
+kids,want children
+young ones,want children
+babies,want children
+youth,want children
+offspring,want children
+baby,want children
+infants,want children
+kid,want children
+youngsters,want children
+do you want children,want children
+are you ready for kids,want children
+do you want a family,want children
+are kids in your future,want children
+do you plan to have children,want children
+are you ready to be a parent,want children
+do you want to start a family,want children
+will you have kids,want children
+are children in your plans,want children
+do you intend to have children,want children
+will you become a parent,want children
+do you want to conceive,want children
+are you prepared for parenthood,want children
+do you want to have kids,want children
+are you ready for parenthood,want children
+sign,star sign
+star sign,star sign
+zodiac sign,star sign
+astrology sign,star sign
+horoscope sign,star sign
+birth sign,star sign
+what's your star sign,star sign
+what's your zodiac sign,star sign
+what's your astrology sign,star sign
+what's your horoscope sign,star sign
+what's your birth sign,star sign
+which star sign are you,star sign
+what's your sign,star sign
+which zodiac sign are you,star sign
+what's your astrology,star sign
+which horoscope sign are you,star sign
+what's your rising sign,star sign
+which star sign are you born under,star sign
+what's your sun sign,star sign
+which astrology sign are you,star sign
+what's your zodiac,star sign
+which birth sign are you,star sign
+what's your celestial sign,star sign
+which horoscope are you,star sign
+what's your cosmic sign,star sign
+which star sign do you have,star sign
+what's your astral sign,star sign
+democracy,politics
+political affairs,politics
+government,politics
+public policy,politics
+civic affairs,politics
+are you into politics,politics
+do you have political views,politics
+are you interested in politics,politics
+do you follow political news,politics
+are you politically active,politics
+do you have a political stance,politics
+are you passionate about politics,politics
+do you engage in political discussions,politics
+are you a political enthusiast,politics
+do you care about government affairs,politics
+are you knowledgeable about public policy,politics
+do you participate in civic affairs,politics
+are you concerned about political issues,politics
+do you have strong political beliefs,politics
+are you an active citizen,politics
+do you stay informed about politics,politics
+are you a political junkie,politics
+do you enjoy political debates,politics
+are you a student of politics,politics
+do you work in politics,politics
+god,religion
+faith,religion
+belief system,religion
+spiritual practice,religion
+denomination,religion
+creed,religion
+doctrine,religion
+tenets,religion
+worship,religion
+ideology,religion
+what is your religion,religion
+do you believe in god,religion
+are you religious,religion
+constitute your religious,religion
+what is your faith,religion
+do you have a belief system,religion
+what is your spiritual practice,religion
+what denomination do you belong to,religion
+what are your religious beliefs,religion
+do you follow a particular creed,religion
+what are your religious principles,religion
+are you devoted to a higher power,religion
+do you practice a particular doctrine,religion
+what are your spiritual values,religion
+do you have religious tenets,religion
+are you a follower of a particular faith,religion
+do you engage in religious worship,religion
+what is your religious ideology,religion
+do you have a religious affiliation,religion
+are you a spiritual person,religion
+do you follow a particular religious tradition,religion
+are you a believer,religion
+tribe,tribe
+clan,tribe
+culture,tribe
+native,tribe
+indigene,tribe
+ethnic group,tribe
+kinship group,tribe
+ancestral group,tribe
+indigenous group,tribe
+cultural group,tribe
+do you have a tribe,tribe
+what tribe do you belong to,tribe
+what tribe do you serve,tribe
+are you part of a clan,tribe
+which community do you identify with,tribe
+what nation are you from,tribe
+which people do you belong to,tribe
+what ethnic group do you belong to,tribe
+which kinship group are you part of,tribe
+what ancestral group do you come from,tribe
+which indigenous group are you from,tribe
+what cultural group do you identify with,tribe
+do you have a cultural affiliation,tribe
+are you part of a traditional community,tribe
+which ancestral lands are yours,tribe
+do you have a native heritage,tribe
+which community are you rooted in,tribe
+do you belong to a specific people,tribe
+which group do you feel a sense of belonging to,tribe
+are you connected to a particular nation,tribe
+hobbies,hobbies
+interests,hobbies
+pastimes,hobbies
+pursuits,hobbies
+leisure activities,hobbies
+recreations,hobbies
+distractions,hobbies
+amusements,hobbies
+entertainments,hobbies
+avocations,hobbies
+what are your hobbies,hobbies
+what are your interests,hobbies
+what do you enjoy doing,hobbies
+what are your pastimes,hobbies
+how do you spend your free time,hobbies
+what are your favorite pursuits,hobbies
+what do you do for leisure,hobbies
+what are your recreational activities,hobbies
+what do you find entertaining,hobbies
+what are your distractions,hobbies
+how do you have fun,hobbies
+what are your amusements,hobbies
+what do you do in your spare time,hobbies
+what are your favorite things to do,hobbies
+what are your avocations,hobbies
+what do you do to unwind,hobbies
+what are your favorite hobbies,hobbies
+what do you enjoy doing in your free time,hobbies
+what are your go-to activities,hobbies
+what makes you happy,hobbies
+obsession,passion
+love,passion
+ardor,passion
+zeal,passion
+enthusiasm,passion
+fervor,passion
+devotion,passion
+dedication,passion
+infatuation,passion
+what is your passion,passion
+what is your passion in life,passion
+what drives you,passion
+what are you passionate about,passion
+what is your obsession,passion
+what do you really love doing,passion
+what are you ardent about,passion
+what is your zeal,passion
+what gets you excited,passion
+what is your enthusiasm,passion
+what are you fervent about,passion
+what is your devotion,passion
+what are you dedicated to,passion
+what is your infatuation,passion
+what do you have a passion for,passion
+what activity do you love,passion
+what is your heart's desire,passion
+what do you enjoy deeply,passion
+what is your greatest passion,passion
+what do you care about deeply,passion
+aspirations,dreams
+goals,dreams
+ambitions,dreams
+visions,dreams
+objectives,dreams
+desires,dreams
+hopes,dreams
+aims,dreams
+ideals,dreams
+what are your dreams,dreams
+what are your aspirations,dreams
+what are your goals,dreams
+what are your ambitions,dreams
+what is your vision,dreams
+what are your objectives,dreams
+what are your desires,dreams
+what are your hopes,dreams
+what are your aims,dreams
+what are your ideals,dreams
+what do you dream about,dreams
+what do you aspire to,dreams
+what do you want to achieve,dreams
+what is your heart's desire,dreams
+what do you long for,dreams
+what is your ultimate goal,dreams
+what do you strive for,dreams
+what is your greatest aspiration,dreams
+what do you wish for,dreams
+what is your dream goal,dreams
+what do you aim to accomplish,dreams
+relationship goals,expectations in a relationship
+relationship standards,expectations in a relationship
+romantic expectations,expectations in a relationship
+partnership aspirations,expectations in a relationship
+love expectations,expectations in a relationship
+connection goals,expectations in a relationship
+attachment aspirations,expectations in a relationship
+intimacy expectations,expectations in a relationship
+commitment goals,expectations in a relationship
+what do you expect in a relationship,expectations in a relationship
+what do you look for in a relationship,expectations in a relationship
+what are your relationship goals,expectations in a relationship
+what are your relationship standards,expectations in a relationship
+what are your romantic expectations,expectations in a relationship
+what do you aspire to in a partnership,expectations in a relationship
+what are your love expectations,expectations in a relationship
+what do you hope for in a connection,expectations in a relationship
+what are your attachment aspirations,expectations in a relationship
+what do you expect from intimacy,expectations in a relationship
+what are your commitment goals,expectations in a relationship
+what do you seek in a relationship,expectations in a relationship
+what is your idea of a perfect relationship,expectations in a relationship
+what do you want in a partner,expectations in a relationship
+what are your non-negotiables in a relationship,expectations in a relationship
+what do you value in a relationship,expectations in a relationship
+what makes a relationship fulfilling for you,expectations in a relationship
+what is your vision for a relationship,expectations in a relationship
+what do you hope to achieve in a relationship,expectations in a relationship
+preferred cuisine,favorite food
+beloved dish,favorite food
+favorite dish,favorite food
+go-to food,favorite food
+favorite cuisine,favorite food
+loved food,favorite food
+cherished dish,favorite food
+desired food,favorite food
+treasured cuisine,favorite food
+what is your favorite food,favorite food
+what is your favorite consume,favorite food
+what do you love to eat,favorite food
+what is your preferred cuisine,favorite food
+what is your beloved dish,favorite food
+what is your favorite dish,favorite food
+what is your go-to food,favorite food
+what cuisine do you enjoy most,favorite food
+what food do you love,favorite food
+what is your cherished dish,favorite food
+what food do you desire most,favorite food
+what cuisine do you treasure,favorite food
+what is your favorite thing to eat,favorite food
+what food makes you happy,favorite food
+what is your favorite culinary delight,favorite food
+what food do you crave,favorite food
+what is your favorite meal,favorite food
+what food do you enjoy eating,favorite food
+what is your favorite snack,favorite food
+hue,favorite color
+tint,favorite color
+shade,favorite color
+tone,favorite color
+dye,favorite color
+favorite color,favorite color
+preferred color,favorite color
+beloved color,favorite color
+favorite hue,favorite color
+cherished color,favorite color
+what is your favorite color,favorite color
+what is your favorite colour,favorite color
+what color do you like the most,favorite color
+what is your preferred color,favorite color
+what is your beloved color,favorite color
+what is your favorite hue,favorite color
+what is your cherished color,favorite color
+which color do you love most,favorite color
+what color do you enjoy seeing,favorite color
+what color makes you happy,favorite color
+what is your go-to color,favorite color
+what color do you find most appealing,favorite color
+what color do you like best,favorite color
+what is your favorite color to wear,favorite color
+what color do you like to surround yourself with,favorite color
+what color makes you feel good,favorite color
+what color is your favorite,favorite color
+which color do you prefer,favorite color
+what color do you love,favorite color
+creature,favorite animal
+beast,favorite animal
+organism,favorite animal
+living thing,favorite animal
+critter,favorite animal
+what is your favorite animal,favorite animal
+what constitutes your favorite animal,favorite animal
+what animal do you like the most,favorite animal
+what creature is your favorite,favorite animal
+what beast do you love most,favorite animal
+what organism do you enjoy most,favorite animal
+what being is your favorite,favorite animal
+what critter do you like best,favorite animal
+which creature do you love most,favorite animal
+what is your favorite creature,favorite animal
+which beast is your favorite,favorite animal
+what organism do you love,favorite animal
+what living thing do you enjoy most,favorite animal
+what critter do you love,favorite animal
+what is your favorite beast,favorite animal
+what creature do you enjoy most,favorite animal
+what animal do you love most,favorite animal
+what is your favorite organism,favorite animal
+what living thing do you like best,favorite animal
+what critter do you enjoy most,favorite animal
+what is your favorite critter,favorite animal
+film,favorite movie
+picture,favorite movie
+flick,favorite movie
+cinema,favorite movie
+show,favorite movie
+what is your favorite movie,favorite movie
+what exists as your favorite movie,favorite movie
+what movie do you like the most,favorite movie
+what film is your favorite,favorite movie
+what picture do you love most,favorite movie
+what flick do you enjoy most,favorite movie
+what cinema do you like best,favorite movie
+what show is your favorite,favorite movie
+which film do you love most,favorite movie
+what is your favorite film,favorite movie
+which picture is your favorite,favorite movie
+what flick do you love,favorite movie
+what cinema do you enjoy most,favorite movie
+what show do you like most,favorite movie
+what is your favorite flick,favorite movie
+what picture do you enjoy most,favorite movie
+what movie do you love most,favorite movie
+what is your favorite cinema,favorite movie
+what film do you like best,favorite movie
+what show do you enjoy most,favorite movie
+what is your favorite show,favorite movie
+novel,favorite book
+manual,favorite book
+book,favorite book
+publication,favorite book
+edition,favorite book
+text,favorite book
+script,favorite book
+journal,favorite book
+magazine,favorite book
+catalog,favorite book
+what is your favorite book,favorite book
+what is your favorite literature,favorite book
+what book do you like the most,favorite book
+what novel is your favorite,favorite book
+what manual do you love most,favorite book
+what volume do you enjoy most,favorite book
+what publication is your favorite,favorite book
+what edition do you like best,favorite book
+what text is your favorite,favorite book
+what script do you love most,favorite book
+what journal do you enjoy most,favorite book
+what magazine do you like best,favorite book
+what catalog do you enjoy most,favorite book
+which novel do you love most,favorite book
+what is your favorite novel,favorite book
+which manual is your favorite,favorite book
+what volume do you love,favorite book
+what publication do you enjoy most,favorite book
+what edition do you enjoy most,favorite book
+melody,favorite music genre
+music,favorite music genre
+tune,favorite music genre
+sound,favorite music genre
+rhythm,favorite music genre
+what is your favorite music genre,favorite music genre
+what melody genre do you like most,favorite music genre
+what harmony type is your favorite,favorite music genre
+what tune category do you enjoy most,favorite music genre
+what sound genre do you love most,favorite music genre
+what rhythm style is your favorite,favorite music genre
+which melody genre do you love most,favorite music genre
+what is your favorite melody genre,favorite music genre
+which harmony genre do you like best,favorite music genre
+what tune genre do you love most,favorite music genre
+what sound type do you enjoy most,favorite music genre
+what rhythm genre do you enjoy most,favorite music genre
+what is your favorite harmony genre,favorite music genre
+what is your favorite tune genre,favorite music genre
+what is your favorite sound genre,favorite music genre
+what is your favorite rhythm genre,favorite music genre
+which music melody is your favorite,favorite music genre
+which music harmony do you enjoy most,favorite music genre
+which music tune do you enjoy most,favorite music genre
+which music sound do you enjoy most,favorite music genre
+which music rhythm do you enjoy most,favorite music genre
+melody,favorite type of music
+harmony,favorite type of music
+tune,favorite type of music
+sound,favorite type of music
+song,favorite type of music
+what type of music do you like,favorite type of music
+which type of music do you prefer,favorite type of music
+what kind of melody do you enjoy most,favorite type of music
+which harmony do you like best,favorite type of music
+what type of tune do you love most,favorite type of music
+what sound do you enjoy most,favorite type of music
+what rhythm do you prefer most,favorite type of music
+which type of melody do you love most,favorite type of music
+what is your favorite harmony,favorite type of music
+which tune do you prefer most,favorite type of music
+what type of sound do you love most,favorite type of music
+which rhythm do you prefer most,favorite type of music
+what is your favorite type of song,favorite type of music
+what is your favorite type of harmony,favorite type of music
+what is your favorite type of tune,favorite type of music
+what is your favorite type of sound,favorite type of music
+what is your favorite type of rhythm,favorite type of music
+which melody do you enjoy most,favorite type of music
+which harmony do you enjoy most,favorite type of music
+which tune do you enjoy most,favorite type of music
+which sound do you enjoy most,favorite type of music
+which rhythm do you enjoy most,favorite type of music
+creator,favorite artist
+entertainer,favorite artist
+musician,favorite artist
+singer,favorite artist
+performer,favorite artist
+who is your favorite artist,favorite artist
+who is your favored artist,favorite artist
+who is your favorite singer,favorite artist
+what creator do you enjoy most,favorite artist
+which entertainer do you like best,favorite artist
+what musician do you love most,favorite artist
+which singer do you prefer most,favorite artist
+what performer do you enjoy most,favorite artist
+which creator do you love most,favorite artist
+who is your favorite entertainer,favorite artist
+who is your favorite musician,favorite artist
+who is your favorite performer,favorite artist
+what artist do you like best,favorite artist
+what singer do you love most,favorite artist
+which artist do you enjoy most,favorite artist
+which artist do you like best,favorite artist
+which artist do you love most,favorite artist
+who is your favorite creator,favorite artist
+who is your favored performer,favorite artist
+who is your favored singer,favorite artist
+journey,favorite travel destination
+trip,favorite travel destination
+voyage,favorite travel destination
+expedition,favorite travel destination
+adventure,favorite travel destination
+what is your favorite travel destination,favorite travel destination
+what exists as your favorite travel destination,favorite travel destination
+where do you love to travel,favorite travel destination
+what journey do you enjoy most,favorite travel destination
+which trip do you like best,favorite travel destination
+what voyage do you love most,favorite travel destination
+which expedition do you prefer most,favorite travel destination
+what adventure do you enjoy most,favorite travel destination
+which journey do you love most,favorite travel destination
+what is your favorite trip,favorite travel destination
+what is your favorite voyage,favorite travel destination
+what is your favorite expedition,favorite travel destination
+what is your favorite adventure,favorite travel destination
+where is your favorite trip,favorite travel destination
+where is your favorite journey,favorite travel destination
+which trip do you enjoy most,favorite travel destination
+which journey do you like best,favorite travel destination
+which voyage do you enjoy most,favorite travel destination
+which expedition do you enjoy most,favorite travel destination
+which adventure do you enjoy most,favorite travel destination
+game,favorite sport
+contest,favorite sport
+event,favorite sport
+competition,favorite sport
+discipline,favorite sport
+what is your favorite sport,favorite sport
+what is your favored sport,favorite sport
+what kind of sports do you like,favorite sport
+what game do you enjoy most,favorite sport
+which contest do you like best,favorite sport
+what event do you love most,favorite sport
+which competition do you prefer most,favorite sport
+what discipline do you enjoy most,favorite sport
+which game do you love most,favorite sport
+what is your favorite contest,favorite sport
+what is your favorite event,favorite sport
+what is your favorite competition,favorite sport
+what is your favorite discipline,favorite sport
+which contest do you enjoy most,favorite sport
+which event do you enjoy most,favorite sport
+which competition do you enjoy most,favorite sport
+which discipline do you enjoy most,favorite sport
+what type of game do you like,favorite sport
+what type of contest do you like,favorite sport
+what type of event do you like,favorite sport
+what type of competition do you like,favorite sport
+what type of discipline do you like,favorite sport
+squad,favorite team
+crew,favorite team
+unit,favorite team
+club,favorite team
+team,favorite team
+what's your favorite team,favorite team
+what is your favored team,favorite team
+what be your favorite team,favorite team
+which team do you support,favorite team
+which team do you perform to support,favorite team
+which squad do you like best,favorite team
+what crew do you love most,favorite team
+which unit do you prefer most,favorite team
+what club do you enjoy most,favorite team
+which team do you support most,favorite team
+which squad do you love most,favorite team
+what is your favorite crew,favorite team
+what is your favorite unit,favorite team
+what is your favorite club,favorite team
+what is your favorite team,favorite team
+which crew do you enjoy most,favorite team
+which unit do you enjoy most,favorite team
+which club do you enjoy most,favorite team
+which team do you enjoy most,favorite team
+what type of squad do you like,favorite team
+what type of crew do you like,favorite team
+what type of unit do you like,favorite team
+what type of club do you like,favorite team
+what type of team do you like,favorite team
+footballer,favorite player
+athlete,favorite player
+competitor,favorite player
+participant,favorite player
+contender,favorite player
+sportsman,favorite player
+who is your favorite player,favorite player
+who is your darling player,favorite player
+who be your favorite player,favorite player
+who is your favorite athlete,favorite player
+who is your favorite competitor,favorite player
+who is your favorite participant,favorite player
+who is your favorite contender,favorite player
+who is your favorite sportsman,favorite player
+which athlete do you like best,favorite player
+which competitor do you love most,favorite player
+which participant do you prefer most,favorite player
+which footballer do you enjoy most,favorite player
+which sportsman do you support most,favorite player
+which athlete do you love most,favorite player
+who is your favorite competitor,favorite player
+who is your favorite participant,favorite player
+who is your favorite contender,favorite player
+who is your favorite sportsman,favorite player
+which competitor do you enjoy most,favorite player
+which participant do you enjoy most,favorite player
+which contender do you enjoy most,favorite player
+which sportsman do you enjoy most,favorite player
+what type of athlete do you like,favorite player
+what type of competitor do you like,favorite player
+what type of participant do you like,favorite player
+what type of contender do you like,favorite player
+what type of sportsman do you like,favorite player
+course,favorite subject in school
+field,favorite subject in school
+discipline,favorite subject in school
+topic,favorite subject in school
+study,favorite subject in school
+specialty,favorite subject in school
+concentration,favorite subject in school
+emphasis,favorite subject in school
+orientation,favorite subject in school
+what is your favorite subject in school,favorite subject in school
+what is your favorite course in school,favorite subject in school
+what is your favorite field in school,favorite subject in school
+what is your favorite discipline in school,favorite subject in school
+what is your favorite topic in school,favorite subject in school
+what is your favorite study in school,favorite subject in school
+what is your favorite specialty in school,favorite subject in school
+what is your favorite concentration in school,favorite subject in school
+what is your favorite interest in school,favorite subject in school
+what is your favorite emphasis in school,favorite subject in school
+what is your favorite orientation in school,favorite subject in school
+which course do you like best in school,favorite subject in school
+which field do you love most in school,favorite subject in school
+which discipline do you prefer most in school,favorite subject in school
+which topic do you enjoy most in school,favorite subject in school
+which study do you enjoy most in school,favorite subject in school
+which aspect do you enjoy most in school,favorite subject in school
+which specialty do you enjoy most in school,favorite subject in school
+which concentration do you enjoy most in school,favorite subject in school
+which interest do you enjoy most in school,favorite subject in school
+which emphasis do you enjoy most in school,favorite subject in school
+which orientation do you enjoy most in school,favorite subject in school
+what type of course do you like,favorite subject in school
+what type of field do you like,favorite subject in school
+what type of discipline do you like,favorite subject in school
+what type of topic do you like,favorite subject in school
+what type of study do you like,favorite subject in school
+cuisine,favorite type of food
+dish,favorite type of food
+menu,favorite type of food
+nourishment,favorite type of food
+edibles,favorite type of food
+grub,favorite type of food
+eats,favorite type of food
+snack,favorite type of food
+bites,favorite type of food
+treats,favorite type of food
+what type of food do you like,favorite type of food
+what cuisine do you enjoy most,favorite type of food
+what dish do you love most,favorite type of food
+what menu do you prefer most,favorite type of food
+what nourishment do you enjoy most,favorite type of food
+what edibles do you like most,favorite type of food
+what grub do you enjoy most,favorite type of food
+what eats do you like most,favorite type of food
+what snack do you enjoy most,favorite type of food
+what bites do you like most,favorite type of food
+what treats do you enjoy most,favorite type of food
+which cuisine do you like best,favorite type of food
+which dish do you love most,favorite type of food
+which menu do you enjoy most,favorite type of food
+which nourishment do you enjoy most,favorite type of food
+which edibles do you like most,favorite type of food
+which grub do you enjoy most,favorite type of food
+which eats do you like most,favorite type of food
+which snack do you enjoy most,favorite type of food
+which bites do you like most,favorite type of food
+which treats do you enjoy most,favorite type of food
+what kind of cuisine do you like,favorite type of food
+what kind of dish do you like,favorite type of food
+what kind of menu do you like,favorite type of food
+what kind of nourishment do you like,favorite type of food
+what kind of edibles do you like,favorite type of food
+what kind of grub do you like,favorite type of food
+what kind of eats do you like,favorite type of food
+what kind of snack do you like,favorite type of food
+what kind of bites do you like,favorite type of food
+what kind of treats do you like,favorite type of food
+film,favorite type of movie
+picture,favorite type of movie
+show,favorite type of movie
+flick,favorite type of movie
+cinema,favorite type of movie
+video,favorite type of movie
+feature,favorite type of movie
+production,favorite type of movie
+screening,favorite type of movie
+blockbuster,favorite type of movie
+what type of movie do you like,favorite type of movie
+what film do you enjoy most,favorite type of movie
+what picture do you love most,favorite type of movie
+what show do you prefer most,favorite type of movie
+what flick do you like best,favorite type of movie
+what cinema do you enjoy most,favorite type of movie
+what video do you like most,favorite type of movie
+what feature do you enjoy most,favorite type of movie
+what production do you like most,favorite type of movie
+what screening do you enjoy most,favorite type of movie
+what blockbuster do you like most,favorite type of movie
+which film do you like best,favorite type of movie
+which picture do you love most,favorite type of movie
+which show do you enjoy most,favorite type of movie
+which flick do you prefer most,favorite type of movie
+which cinema do you like most,favorite type of movie
+which video do you enjoy most,favorite type of movie
+which feature do you like most,favorite type of movie
+which production do you enjoy most,favorite type of movie
+which screening do you like most,favorite type of movie
+which blockbuster do you enjoy most,favorite type of movie
+what kind of film do you like,favorite type of movie
+what kind of picture do you like,favorite type of movie
+what kind of show do you like,favorite type of movie
+what kind of flick do you like,favorite type of movie
+what kind of cinema do you like,favorite type of movie
+what kind of video do you like,favorite type of movie
+what kind of feature do you like,favorite type of movie
+what kind of production do you like,favorite type of movie
+what kind of screening do you like,favorite type of movie
+what kind of blockbuster do you like,favorite type of movie
+novel,favorite type of book
+volume,favorite type of book
+publication,favorite type of book
+title,favorite type of book
+literature,favorite type of book
+work,favorite type of book
+tome,favorite type of book
+edition,favorite type of book
+manuscript,favorite type of book
+bestseller,favorite type of book
+what type of book do you like,favorite type of book
+what novel do you enjoy most,favorite type of book
+what volume do you love most,favorite type of book
+what publication do you prefer most,favorite type of book
+what title do you like best,favorite type of book
+what literature do you enjoy most,favorite type of book
+what work do you like most,favorite type of book
+what tome do you enjoy most,favorite type of book
+what edition do you like most,favorite type of book
+what manuscript do you enjoy most,favorite type of book
+what bestseller do you like most,favorite type of book
+which novel do you like best,favorite type of book
+which volume do you love most,favorite type of book
+which publication do you enjoy most,favorite type of book
+which title do you prefer most,favorite type of book
+which literature do you like most,favorite type of book
+which work do you enjoy most,favorite type of book
+which tome do you like most,favorite type of book
+which edition do you enjoy most,favorite type of book
+which manuscript do you like most,favorite type of book
+which bestseller do you enjoy most,favorite type of book
+what kind of novel do you like,favorite type of book
+what kind of volume do you like,favorite type of book
+what kind of publication do you like,favorite type of book
+what kind of title do you like,favorite type of book
+what kind of literature do you like,favorite type of book
+what kind of work do you like,favorite type of book
+what kind of tome do you like,favorite type of book
+what kind of edition do you like,favorite type of book
+what kind of manuscript do you like,favorite type of book
+what kind of bestseller do you like,favorite type of book
+game,favorite type of sport
+activity,favorite type of sport
+competition,favorite type of sport
+event,favorite type of sport
+exercise,favorite type of sport
+pastime,favorite type of sport
+contest,favorite type of sport
+recreation,favorite type of sport
+tournament,favorite type of sport
+discipline,favorite type of sport
+what type of sport do you like,favorite type of sport
+what game do you enjoy most,favorite type of sport
+what activity do you love most,favorite type of sport
+what competition do you prefer most,favorite type of sport
+what event do you like best,favorite type of sport
+what exercise do you enjoy most,favorite type of sport
+what pastime do you like most,favorite type of sport
+what contest do you enjoy most,favorite type of sport
+what recreation do you like most,favorite type of sport
+what tournament do you enjoy most,favorite type of sport
+what discipline do you like most,favorite type of sport
+which game do you like best,favorite type of sport
+which activity do you love most,favorite type of sport
+which competition do you enjoy most,favorite type of sport
+which event do you prefer most,favorite type of sport
+which exercise do you like most,favorite type of sport
+which pastime do you enjoy most,favorite type of sport
+which contest do you like most,favorite type of sport
+which recreation do you enjoy most,favorite type of sport
+which tournament do you like most,favorite type of sport
+which discipline do you enjoy most,favorite type of sport
+what kind of game do you like,favorite type of sport
+what kind of activity do you like,favorite type of sport
+what kind of competition do you like,favorite type of sport
+what kind of event do you like,favorite type of sport
+what kind of exercise do you like,favorite type of sport
+what kind of pastime do you like,favorite type of sport
+what kind of contest do you like,favorite type of sport
+what kind of recreation do you like,favorite type of sport
+what kind of tournament do you like,favorite type of sport
+what kind of discipline do you like,favorite type of sport
+journey,favorite type of travel
+trip,favorite type of travel
+tour,favorite type of travel
+voyage,favorite type of travel
+expedition,favorite type of travel
+adventure,favorite type of travel
+exploration,favorite type of travel
+excursion,favorite type of travel
+pilgrimage,favorite type of travel
+odyssey,favorite type of travel
+what type of travel do you like,favorite type of travel
+what journey do you enjoy most,favorite type of travel
+what trip do you love most,favorite type of travel
+what tour do you prefer most,favorite type of travel
+what voyage do you like best,favorite type of travel
+what expedition do you enjoy most,favorite type of travel
+what adventure do you like most,favorite type of travel
+what exploration do you enjoy most,favorite type of travel
+what excursion do you like most,favorite type of travel
+what pilgrimage do you enjoy most,favorite type of travel
+what odyssey do you like most,favorite type of travel
+which journey do you like best,favorite type of travel
+which trip do you love most,favorite type of travel
+which tour do you enjoy most,favorite type of travel
+which voyage do you prefer most,favorite type of travel
+which expedition do you like most,favorite type of travel
+which adventure do you enjoy most,favorite type of travel
+which exploration do you like most,favorite type of travel
+which excursion do you enjoy most,favorite type of travel
+which pilgrimage do you like most,favorite type of travel
+which odyssey do you enjoy most,favorite type of travel
+what kind of journey do you like,favorite type of travel
+what kind of trip do you like,favorite type of travel
+what kind of tour do you like,favorite type of travel
+what kind of voyage do you like,favorite type of travel
+what kind of expedition do you like,favorite type of travel
+what kind of adventure do you like,favorite type of travel
+what kind of exploration do you like,favorite type of travel
+what kind of excursion do you like,favorite type of travel
+what kind of pilgrimage do you like,favorite type of travel
+what kind of odyssey do you like,favorite type of travel
 What kind of food do you enjoy,favorite type of food
 What kind of movies do you watch,favorite type of movie
 What kind of movie do you watch,favorite type of movie
@@ -485,4 +1243,34 @@ What kind of books do you read,favorite type of book
 What kind of sports do you like,favorite type of sport
 What kind of trips do you enjoy,favorite type of travel
 What kind of trips practice you enjoy,favorite type of travel
-Do you prefer starting chats or your partner,initiates chat
+starts conversations,initiates chat
+begins talks,initiates chat
+launches discussions,initiates chat
+opens dialogues,initiates chat
+commences interactions,initiates chat
+kicks off conversations,initiates chat
+sets conversations in motion,initiates chat
+gets talks started,initiates chat
+sparks discussions,initiates chat
+sets the conversation ball rolling,initiates chat
+do you prefer starting chats or your partner initiates,initiates chat
+do you like to begin conversations or your partner begins,initiates chat
+do you prefer to launch discussions or your partner launches,initiates chat
+do you like to open dialogues or your partner opens,initiates chat
+do you prefer to commence interactions or your partner commences,initiates chat
+do you like to kick off conversations or your partner kicks off,initiates chat
+do you prefer to set conversations in motion or your partner sets,initiates chat
+do you like to get talks started or your partner gets,initiates chat
+do you prefer to spark discussions or your partner sparks,initiates chat
+do you like to set the conversation ball rolling or your partner sets,initiates chat
+which do you prefer starting chats or your partner starts,initiates chat
+which do you like better launching discussions or your partner launches,initiates chat
+which is your preference opening dialogues or your partner opens,initiates chat
+which do you prefer commencing interactions or your partner commences,initiates chat
+which do you like better kicking off conversations or your partner kicks off,initiates chat
+which is your preference setting conversations in motion or your partner sets,initiates chat
+which do you prefer getting talks started or your partner gets,initiates chat
+which do you like better sparking discussions or your partner sparks,initiates chat
+which is your preference setting the conversation ball rolling or your partner sets,initiates chat
+are you the person who prefers starting chats or your partner starts,initiates chat
+are you the person who likes to begin conversations or your partner begins,initiates chat

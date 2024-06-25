@@ -55,6 +55,7 @@ namespace TalkingStage
         private MLContext mlContext;
         private ITransformer model;
         private DataViewSchema modelSchema;
+        private bool isFirstInteraction;
 
         public TalkingStageBot()
         {
@@ -74,36 +75,60 @@ namespace TalkingStage
 
             // Load the model
             model = mlContext.Model.Load(modelPath, out modelSchema);
+
+            // Set the first interaction flag
+            isFirstInteraction = true;
         }
 
-        public string GetResponse(string question)
+        public (string response, bool isFirstInteraction) GetResponse(string questions)
         {
-            // Ensure lowercase for consistency
-            question = question.ToLower();
-
-            // Check if any keywords directly match in the question
-            foreach (var keyword in responses.Keys)
+            // Provide information on the first interaction
+            if (isFirstInteraction)
             {
-                if (question.Contains(keyword))
+                isFirstInteraction = false;
+                return ("", true);
+            }
+
+            // Split input into individual questions
+            var questionList = questions.Split(new[] { '.', '?', ',', '!' }, StringSplitOptions.RemoveEmptyEntries);
+
+            var responsesSet = new HashSet<string>();
+
+            foreach (var question in questionList)
+            {
+                // Ensure lowercase for consistency
+                var lowerQuestion = question.ToLower().Trim();
+
+                // Check if any keywords directly match in the question
+                foreach (var keyword in responses.Keys)
                 {
-                    return responses[keyword];
+                    if (lowerQuestion.Contains(keyword))
+                    {
+                        responsesSet.Add(responses[keyword]);
+                        goto NextQuestion;
+                    }
                 }
+
+                // If no direct keyword match, then use ML model prediction
+                var prediction = Predict(lowerQuestion);
+
+                if (prediction != null && !string.IsNullOrEmpty(prediction.PredictedLabel))
+                {
+                    if (responses.TryGetValue(prediction.PredictedLabel, out var response))
+                    {
+                        responsesSet.Add(response);
+                    }
+                }
+                else
+                {
+                    responsesSet.Add("I don't have an answer for that.");
+                }
+
+            NextQuestion:
+                continue;
             }
 
-            // If no direct keyword match, then use ML model prediction
-            var prediction = Predict(question);
-
-            if (prediction == null || string.IsNullOrEmpty(prediction.PredictedLabel))
-            {
-                return "I don't have an answer for that.";
-            }
-
-            if (responses.TryGetValue(prediction.PredictedLabel, out var response))
-            {
-                return response;
-            }
-
-            return "I don't have an answer for that.";
+            return (string.Join(", ", responsesSet), false);
         }
 
         private Prediction? Predict(string text)
