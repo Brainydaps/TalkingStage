@@ -87,8 +87,7 @@ Console.WriteLine(response);
 ## Screenshots
 ![Screenshot 2024-06-25 172627](https://github.com/Brainydaps/TalkingStage/assets/41041115/7b8825b7-c394-4861-92b6-55dd1c005c8d)
 ![Screenshot 2024-06-25 172912](https://github.com/Brainydaps/TalkingStage/assets/41041115/2a04c075-23b4-4ae5-a9c1-87972993eff6)
-
-
+![Screenshot 2024-06-29 at 03 26 57](https://github.com/Brainydaps/TalkingStage/assets/41041115/b3a18c48-0370-4471-8e84-2e24a2abfdd3)
 
 ## Machine Learning Techniques
 
