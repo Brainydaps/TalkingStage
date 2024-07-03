@@ -15,16 +15,34 @@ TalkingStage is a conversational bot that uses machine learning to predict respo
 ![Screenshot 2024-06-25 172912](https://github.com/Brainydaps/TalkingStage/assets/41041115/2a04c075-23b4-4ae5-a9c1-87972993eff6)
 ![Screenshot 2024-06-29 at 03 26 57](https://github.com/Brainydaps/TalkingStage/assets/41041115/b3a18c48-0370-4471-8e84-2e24a2abfdd3)
 
-## What's New in v1.2.3 Release
+# What's New in v1.3.0
 
-- Implemented a more advanced machine learning algorithm (LightGBM) for improved prediction accuracy.
-- Fine-tuned model parameters for enhanced performance and reliability.
-- Optimized data preprocessing steps to ensure consistent and effective training.
-- Updated data loading and preprocessing to handle text data more efficiently.
-- Streamlined the training pipeline for faster model training and deployment.
-- Enhanced model robustness with increased iterations and improved feature handling.
-- Integrated comprehensive error handling and logging for better debugging capabilities.
-- Improved overall code readability and maintainability.
+## Key Updates
+
+### Enhanced User Interaction
+- **New Input Method**: Users can now send their messages to the bot by pressing the enter key or clicking the send button. This makes the interaction smoother and more intuitive.
+
+### Improved Machine Learning Model
+- **Algorithm Parameter Tuning**: Updated the machine learning algorithm parameters for better performance. The LightGBM model now has the following configuration:
+  - **Number of Leaves**: 20
+  - **Number of Iterations**: 100
+  - **Minimum Example Count Per Leaf**: 5
+  - **Learning Rate**: 0.05
+  - **Gradient Booster Options**:
+    - **Subsample Fraction**: 0.8
+    - **Feature Fraction**: 0.8
+    - **L1 Regularization**: 0.1
+    - **L2 Regularization**: 0.2
+  - **Maximum Bin Count Per Feature**: 254
+  - **Early Stopping Rounds**: 20
+
+### Expanded Training Data
+- **Increased Data Points**: The training dataset has been expanded to over 3500 data points. This larger dataset helps in making the model more robust and accurate.
+
+### Model Pipeline Enhancements
+- **Preprocessing Steps**: The training data is now preprocessed to ensure consistency. This involves trimming and converting text to lowercase to avoid discrepancies.
+- **Feature Engineering**: Enhanced feature engineering steps in the training pipeline to improve model performance.
+
 
 
 ## Project Structure
