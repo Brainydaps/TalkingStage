@@ -49,7 +49,7 @@ namespace TalkingStage
             { "favorite type of book", "best book type" },
             { "favorite type of sport", "best sport type" },
             { "favorite type of travel", "best travel type" },
-            { "do you prefer being the one to start chats the most or your man?", "initiates chat" }
+            { "initiates chat","do you prefer starting conversations or your partner?" }
         };
 
         private MLContext mlContext;

@@ -9,12 +9,21 @@ namespace TalkingStage
 
         public MainPage()
         {
-
             InitializeComponent();
             chatbot = new TalkingStageBot(); // Initialize the chatbot
         }
 
         private async void OnSendClicked(object sender, EventArgs e)
+        {
+            await SendMessage();
+        }
+
+        private async void OnEntryCompleted(object sender, EventArgs e)
+        {
+            await SendMessage();
+        }
+
+        private async Task SendMessage()
         {
             string question = UserInput.Text;
             if (string.IsNullOrEmpty(question))
