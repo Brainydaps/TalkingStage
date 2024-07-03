@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.ML;
 using Microsoft.ML.Data;
+using Microsoft.ML.Trainers.LightGbm;
 using Microsoft.ML.Transforms.Text;
 
 namespace TalkingStage
@@ -34,17 +35,22 @@ namespace TalkingStage
             var preprocessedTrainingDataView = mlContext.Data.LoadFromEnumerable(preprocessedTrainingData);
 
             // Define the data preparation and training pipeline
-            var pipeline = mlContext.Transforms.Text.FeaturizeText("Features", nameof(TalkingStageBot.InputData.Text))
-                .Append(mlContext.Transforms.Conversion.MapValueToKey("LabelKey", nameof(TalkingStageBot.InputData.Label)))
-                .Append(mlContext.Transforms.Concatenate("Features", "Features"))
-                .AppendCacheCheckpoint(mlContext)
-                .Append(mlContext.MulticlassClassification.Trainers.SdcaMaximumEntropy(
-                    labelColumnName: "LabelKey",
-                    featureColumnName: "Features",
-                    l2Regularization: 0.1f,
-                    l1Regularization: 0.01f,
-                    maximumNumberOfIterations: 1000))
-                .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel", "PredictedLabel"));
+            var pipeline = mlContext.Transforms.Text.FeaturizeText(inputColumnName: @"Text", outputColumnName: @"Text")
+                                    .Append(mlContext.Transforms.Concatenate(@"Features", new[] { @"Text" }))
+                                    .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: @"Label", inputColumnName: @"Label", addKeyValueAnnotationsAsText: false))
+                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options() { 
+                                        NumberOfLeaves = 30,
+                                        NumberOfIterations = 200, 
+                                        MinimumExampleCountPerLeaf = 1, 
+                                        LearningRate = 0.8, 
+                                        LabelColumnName = @"Label", FeatureColumnName = @"Features", ExampleWeightColumnName = null, 
+                                        Booster = new GradientBooster.Options() { 
+                                            SubsampleFraction = 1, 
+                                            FeatureFraction = 0.9, 
+                                            L1Regularization = 0.03, 
+                                            L2Regularization = 0.1 }, 
+                                        MaximumBinCountPerFeature = 254 }))
+                                    .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName: @"PredictedLabel", inputColumnName: @"PredictedLabel"));
 
             // Train the model
             var model = pipeline.Fit(preprocessedTrainingDataView);
