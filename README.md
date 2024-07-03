@@ -15,11 +15,17 @@ TalkingStage is a conversational bot that uses machine learning to predict respo
 ![Screenshot 2024-06-25 172912](https://github.com/Brainydaps/TalkingStage/assets/41041115/2a04c075-23b4-4ae5-a9c1-87972993eff6)
 ![Screenshot 2024-06-29 at 03 26 57](https://github.com/Brainydaps/TalkingStage/assets/41041115/b3a18c48-0370-4471-8e84-2e24a2abfdd3)
 
-## What's New in v1.2.1
+## What's New in v1.2.3 Release
 
-- **Initial Interaction Alert**: On the first interaction, the bot now displays an alert with guidance on how to format questions for better responses. This helps users understand the input format for optimal results.
-- **Unique Responses**: Updated the response mechanism to ensure that each response is unique and separated by a comma.
-- **Expanded Training Data**: The training data has been expanded to better handle a wider variety of questions, resulting in more accurate and relevant answers.
+- Implemented a more advanced machine learning algorithm (LightGBM) for improved prediction accuracy.
+- Fine-tuned model parameters for enhanced performance and reliability.
+- Optimized data preprocessing steps to ensure consistent and effective training.
+- Updated data loading and preprocessing to handle text data more efficiently.
+- Streamlined the training pipeline for faster model training and deployment.
+- Enhanced model robustness with increased iterations and improved feature handling.
+- Integrated comprehensive error handling and logging for better debugging capabilities.
+- Improved overall code readability and maintainability.
+
 
 ## Project Structure
 
