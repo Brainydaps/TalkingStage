@@ -39,17 +39,19 @@ namespace TalkingStage
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new[] { @"Text" }))
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName: @"Label", inputColumnName: @"Label", addKeyValueAnnotationsAsText: false))
                                     .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options() { 
-                                        NumberOfLeaves = 30,
-                                        NumberOfIterations = 200, 
-                                        MinimumExampleCountPerLeaf = 1, 
-                                        LearningRate = 0.8, 
+                                        NumberOfLeaves = 20,
+                                        NumberOfIterations = 100, 
+                                        MinimumExampleCountPerLeaf = 5, 
+                                        LearningRate = 0.05, 
                                         LabelColumnName = @"Label", FeatureColumnName = @"Features", ExampleWeightColumnName = null, 
                                         Booster = new GradientBooster.Options() { 
-                                            SubsampleFraction = 1, 
-                                            FeatureFraction = 0.9, 
-                                            L1Regularization = 0.03, 
-                                            L2Regularization = 0.1 }, 
-                                        MaximumBinCountPerFeature = 254 }))
+                                            SubsampleFraction = 0.8, 
+                                            FeatureFraction = 0.8, 
+                                            L1Regularization = 0.1, 
+                                            L2Regularization = 0.2 }, 
+                                        MaximumBinCountPerFeature = 254,
+                                        EarlyStoppingRound = 20
+                                    }))
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName: @"PredictedLabel", inputColumnName: @"PredictedLabel"));
 
             // Train the model
