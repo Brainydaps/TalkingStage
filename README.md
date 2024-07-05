@@ -119,7 +119,7 @@ Console.WriteLine(response);
 - Text data is featurized using the `FeaturizeText` method, converting text into numerical vectors.
 - The labels are mapped to keys using `MapValueToKey`.
 
-### Model Training
+### Model Training in the initial release
 - The `SdcaMaximumEntropy` trainer from the ML.NET library is used for multiclass classification.
 - Regularization parameters and the number of iterations were adjusted to improve model performance:
   - L2 Regularization: 0.1
