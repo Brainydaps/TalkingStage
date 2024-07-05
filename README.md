@@ -135,10 +135,10 @@ The training data consists of user queries and corresponding labels. The labels 
 
 ```csv
 Text,Label
-What is your name,your name
-Where do you live,your location
-How old are you,your age
-What is your job,your job
+What is your name,name
+Where do you live,location
+How old are you,age
+What is your job,occupation
 ...
 ```
 
