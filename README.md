@@ -11,40 +11,42 @@ TalkingStage is a conversational bot that uses machine learning to predict respo
 - Supports multiple platforms, including macOS and Windows, would support Android and iOS in future updates through API model access or if microsoft makes ML.NET compatible for mobile devices.
 
   ## Screenshots
-![Screenshot 2024-06-25 172627](https://github.com/Brainydaps/TalkingStage/assets/41041115/7b8825b7-c394-4861-92b6-55dd1c005c8d)
-![Screenshot 2024-06-25 172912](https://github.com/Brainydaps/TalkingStage/assets/41041115/2a04c075-23b4-4ae5-a9c1-87972993eff6)
+![talkingstage2 0](https://github.com/user-attachments/assets/69e85246-3d25-4cd9-8b66-cebe5dc7a41e)
+
 ![Screenshot 2024-06-29 at 03 26 57](https://github.com/Brainydaps/TalkingStage/assets/41041115/b3a18c48-0370-4471-8e84-2e24a2abfdd3)
 
 [YouTube explaination of the brain structure of Talking Stage](https://youtu.be/_ELoo-8MJmI)
 
-# What's New in v1.3.0
+# What's New in TalkingStageBot v2.0
 
-## Key Updates
+We are excited to announce the release of TalkingStageBot v2.0! This new version comes with significant enhancements and improvements to make the chatbot smarter and more efficient. Here’s what’s new:
 
-### Enhanced User Interaction
-- **New Input Method**: Users can now send their messages to the bot by pressing the enter key or clicking the send button. This makes the interaction smoother and more intuitive.
+## Key Features and Improvements
 
-### Improved Machine Learning Model
-- **Algorithm Parameter Tuning**: Updated the machine learning algorithm parameters for better performance. The LightGBM model now has the following configuration:
-  - **Number of Leaves**: 20
-  - **Number of Iterations**: 100
-  - **Minimum Example Count Per Leaf**: 5
-  - **Learning Rate**: 0.05
-  - **Gradient Booster Options**:
-    - **Subsample Fraction**: 0.8
-    - **Feature Fraction**: 0.8
-    - **L1 Regularization**: 0.1
-    - **L2 Regularization**: 0.2
-  - **Maximum Bin Count Per Feature**: 254
-  - **Early Stopping Rounds**: 20
+### 1. Enhanced Machine Learning Model
 
-### Expanded Training Data
-- **Increased Data Points**: The training dataset has been expanded to over 3500 data points. This larger dataset helps in making the model more robust and accurate.
+- **Upgraded ML Model**: The machine learning model has been upgraded to use the `OneVersusAll` trainer with the `LbfgsLogisticRegression` binary classifier. This provides better accuracy and performance for multiclass classification.
+- **Regularization Parameters**: Fine-tuned L1 and L2 regularization parameters for optimal model performance.
+  - L1 Regularization: 0.031347524F
+  - L2 Regularization: 0.03125F
 
-### Model Pipeline Enhancements
-- **Preprocessing Steps**: The training data is now preprocessed to ensure consistency. This involves trimming and converting text to lowercase to avoid discrepancies.
-- **Feature Engineering**: Enhanced feature engineering steps in the training pipeline to improve model performance.
+### 2. Improved Data Preprocessing
 
+- **Text Normalization**: Text data is now preprocessed to ensure all text is in lowercase and trimmed, which helps in reducing the complexity and improving the model's ability to generalize.
+- **Data Pipeline**: Enhanced data pipeline includes text featurization, feature concatenation, and key-to-value mapping for labels.
+
+### 3. Robust Error Handling
+
+- **Platform Compatibility**: Added specific handling for `PlatformNotSupportedException` to ensure smooth operation across different platforms.
+- **Type Initialization**: Improved error handling for type initialization issues to make debugging easier and enhance stability.
+
+### 4. Multi-Platform Support
+
+- **Cross-Platform Compatibility**: TalkingStageBot is now compatible with multiple platforms, including Android, iOS, macOS, and Windows.
+
+### 5. Simplified Training Process
+
+- **Streamlined Training and Saving**: The process of training and saving the model has been streamlined with comprehensive debug logs to track the progress and catch errors effectively.
 
 
 ## Project Structure
