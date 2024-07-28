@@ -42,7 +42,7 @@ We are excited to announce the release of TalkingStageBot v2.0! This new version
 
 ### 4. Multi-Platform Support
 
-- **Cross-Platform Compatibility**: TalkingStageBot is now compatible with multiple platforms, including Android, iOS, macOS, and Windows.
+- **Cross-Platform Compatibility**: TalkingStageBot is now compatible with multiple platforms, including macOS and Windows.
 
 ### 5. Simplified Training Process
 
